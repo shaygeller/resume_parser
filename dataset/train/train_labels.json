@@ -1,0 +1,426 @@
+{
+  "export": {
+    "id": "295d355f-0c94-4233-a0d6-1e4344862fd3",
+    "jobId": "5ab72831-1f9e-448a-ba9f-33f6d49a9866",
+    "buildNumber": 2,
+    "annotations": 0,
+    "labels": 1,
+    "files": 4,
+    "datasets": 1,
+    "creatorId": "bc2b2289-1f29-415f-9f24-629ab5e43789",
+    "createdAt": "2021-08-06T14:44:46.650Z"
+  },
+  "schema": {
+    "id": "92f24e65-b6df-4a60-8055-08824c1ab8d8",
+    "name": "COCO",
+    "format": "DataTorch",
+    "linkId": "5748fc73-d210-4359-b4e6-7ebaaec89ca4",
+    "where": [
+      {
+        "id": "d2bf617d-ec03-4410-a48c-741e8eb965f9",
+        "field": "createdAt",
+        "logic": "and",
+        "operator": "<",
+        "value": "2021-08-08",
+        "type": "AnnotationClause",
+        "schemaId": "92f24e65-b6df-4a60-8055-08824c1ab8d8"
+      }
+    ]
+  },
+  "project": {
+    "id": "1d8484ea-a3d8-4dfe-93ad-18b4432b8b49",
+    "slug": "test",
+    "about": "An about section has no been configured for this project.",
+    "name": "test",
+    "description": "",
+    "visibility": "PRIVATE",
+    "isArchived": false,
+    "avatarUrl": "https://ui-avatars.com/api/?name=test&background=0D8ABC&color=fff",
+    "ownerId": "bc2b2289-1f29-415f-9f24-629ab5e43789",
+    "nsfw": false,
+    "updatedAt": "2021-08-01T21:49:58.725Z",
+    "createdAt": "2021-08-01T21:49:49.303Z"
+  },
+  "datasets": {
+    "1339ce16-9eb6-4afa-b3fd-11f827d874d7": {
+      "name": "test dataset",
+      "description": "",
+      "isArchived": false,
+      "projectId": "1d8484ea-a3d8-4dfe-93ad-18b4432b8b49",
+      "updatedAt": "2021-08-01T21:50:11.960Z",
+      "createdAt": "2021-08-01T21:50:11.960Z"
+    }
+  },
+  "labels": {
+    "c573d90d-208f-45ac-a823-ea464170dc9e": {
+      "customId": null,
+      "name": "Section",
+      "color": "#2e8a3a",
+      "metadata": {},
+      "projectId": "1d8484ea-a3d8-4dfe-93ad-18b4432b8b49",
+      "parentId": null
+    }
+  },
+  "files": {
+    "c034f29e-2bd2-40e4-a0ff-01ca78887ee7": {
+      "name": "0_6Faye.pdf.jpg",
+      "path": "0_6Faye.pdf.jpg",
+      "missing": false,
+      "mimetype": "image/jpeg",
+      "encoding": "7bit",
+      "kilobytes": 1306,
+      "type": "DatasetFile",
+      "createdAt": "2021-08-01T21:51:36.414Z",
+      "updatedAt": "2021-08-01T21:57:18.202Z",
+      "metadata": {},
+      "md5Hash": "c8d27a821c3d4dc5967feb3e2fcc7a57",
+      "properties": {
+        "type": "jpg",
+        "width": 4135,
+        "height": 5847
+      },
+      "url": null,
+      "linkId": "5748fc73-d210-4359-b4e6-7ebaaec89ca4",
+      "datasetId": "1339ce16-9eb6-4afa-b3fd-11f827d874d7",
+      "status": "COMPLETED",
+      "annotations": [
+        {
+          "id": "bda3b6fa-a158-4491-9e06-5a0d8422e7e0",
+          "customId": null,
+          "name": "",
+          "creatorId": "bc2b2289-1f29-415f-9f24-629ab5e43789",
+          "color": "#9edf34",
+          "metadata": {},
+          "labelId": "c573d90d-208f-45ac-a823-ea464170dc9e",
+          "fileId": "c034f29e-2bd2-40e4-a0ff-01ca78887ee7",
+          "createdAt": "2021-08-01T21:53:34.042Z",
+          "sources": [
+            {
+              "id": "9a9bad6f-c9ef-41ed-90cd-39dab2f97baf",
+              "type": "PaperBox",
+              "annotationId": "bda3b6fa-a158-4491-9e06-5a0d8422e7e0",
+              "x": 331.283772302464,
+              "y": 275.281243362362,
+              "width": 3596.62531860663,
+              "height": 2896.17757009346
+            }
+          ]
+        },
+        {
+          "id": "00392500-a019-4d7b-a4c1-18a5a1826899",
+          "customId": null,
+          "name": "",
+          "creatorId": "bc2b2289-1f29-415f-9f24-629ab5e43789",
+          "color": "#2dc854",
+          "metadata": {},
+          "labelId": "c573d90d-208f-45ac-a823-ea464170dc9e",
+          "fileId": "c034f29e-2bd2-40e4-a0ff-01ca78887ee7",
+          "createdAt": "2021-08-01T21:54:00.948Z",
+          "sources": [
+            {
+              "id": "8342d8c1-c6d6-4c58-b9fc-eeba1933a597",
+              "type": "PaperBox",
+              "annotationId": "00392500-a019-4d7b-a4c1-18a5a1826899",
+              "x": 331.283772302464,
+              "y": 3171.45881345582,
+              "width": 3551.91588785047,
+              "height": 1331.34749362787
+            }
+          ]
+        },
+        {
+          "id": "08a13668-e60a-4498-9165-1eb9676fe0e3",
+          "customId": null,
+          "name": "",
+          "creatorId": "bc2b2289-1f29-415f-9f24-629ab5e43789",
+          "color": "#fefb39",
+          "metadata": {},
+          "labelId": "c573d90d-208f-45ac-a823-ea464170dc9e",
+          "fileId": "c034f29e-2bd2-40e4-a0ff-01ca78887ee7",
+          "createdAt": "2021-08-01T21:54:14.886Z",
+          "sources": [
+            {
+              "id": "fd3236cc-0cdd-4689-8d82-b75956b80796",
+              "type": "PaperBox",
+              "annotationId": "08a13668-e60a-4498-9165-1eb9676fe0e3",
+              "x": 336.251486830927,
+              "y": 4502.80630708369,
+              "width": 3551.91588785047,
+              "height": 973.672047578589
+            }
+          ]
+        }
+      ]
+    },
+    "a5be294d-3498-48aa-9f49-45bc6085f6e6": {
+      "name": "0_5Edwardo.pdf.jpg",
+      "path": "0_5Edwardo.pdf.jpg",
+      "missing": false,
+      "mimetype": "image/jpeg",
+      "encoding": "7bit",
+      "kilobytes": 1228,
+      "type": "DatasetFile",
+      "createdAt": "2021-08-01T21:51:35.211Z",
+      "updatedAt": "2021-08-01T21:57:12.952Z",
+      "metadata": {},
+      "md5Hash": "dfa5a639f05d52e008e05474bc632d75",
+      "properties": {
+        "type": "jpg",
+        "width": 4250,
+        "height": 5500
+      },
+      "url": null,
+      "linkId": "5748fc73-d210-4359-b4e6-7ebaaec89ca4",
+      "datasetId": "1339ce16-9eb6-4afa-b3fd-11f827d874d7",
+      "status": "COMPLETED",
+      "annotations": [
+        {
+          "id": "7332957f-1caf-449c-aeb0-11b146143a30",
+          "customId": null,
+          "name": "",
+          "creatorId": "bc2b2289-1f29-415f-9f24-629ab5e43789",
+          "color": "#25e98a",
+          "metadata": {},
+          "labelId": "c573d90d-208f-45ac-a823-ea464170dc9e",
+          "fileId": "a5be294d-3498-48aa-9f49-45bc6085f6e6",
+          "createdAt": "2021-08-01T21:56:29.029Z",
+          "sources": [
+            {
+              "id": "60f1343d-fcf0-4149-afe6-e98f6163cad6",
+              "type": "PaperBox",
+              "annotationId": "7332957f-1caf-449c-aeb0-11b146143a30",
+              "x": 197.429906542056,
+              "y": 417.822721962617,
+              "width": 3747.66355140187,
+              "height": 546.728971962617
+            }
+          ]
+        },
+        {
+          "id": "27ac402a-c873-41f9-b6ff-8c80850e2ca4",
+          "customId": null,
+          "name": "",
+          "creatorId": "bc2b2289-1f29-415f-9f24-629ab5e43789",
+          "color": "#40d8dd",
+          "metadata": {},
+          "labelId": "c573d90d-208f-45ac-a823-ea464170dc9e",
+          "fileId": "a5be294d-3498-48aa-9f49-45bc6085f6e6",
+          "createdAt": "2021-08-01T21:56:47.217Z",
+          "sources": [
+            {
+              "id": "dd7384d3-387a-407c-8352-6c7415ff3805",
+              "type": "PaperBox",
+              "annotationId": "27ac402a-c873-41f9-b6ff-8c80850e2ca4",
+              "x": 197.429906542056,
+              "y": 2772.9629088785,
+              "width": 3257.00934579439,
+              "height": 2509.34579439252
+            }
+          ]
+        },
+        {
+          "id": "c7304278-5b4d-4fe5-9889-5ab673490e18",
+          "customId": null,
+          "name": "",
+          "creatorId": "bc2b2289-1f29-415f-9f24-629ab5e43789",
+          "color": "#fa9a14",
+          "metadata": {},
+          "labelId": "c573d90d-208f-45ac-a823-ea464170dc9e",
+          "fileId": "a5be294d-3498-48aa-9f49-45bc6085f6e6",
+          "createdAt": "2021-08-01T21:56:35.170Z",
+          "sources": [
+            {
+              "id": "eadfbad6-e96c-4070-be6b-912ef7f9d321",
+              "type": "PaperBox",
+              "annotationId": "c7304278-5b4d-4fe5-9889-5ab673490e18",
+              "x": 197.429906542056,
+              "y": 964.551693925234,
+              "width": 3205.60747663551,
+              "height": 1308.41121495327
+            }
+          ]
+        },
+        {
+          "id": "9e8a962b-89be-4e4d-897e-f7431d2b92d0",
+          "customId": null,
+          "name": "",
+          "creatorId": "bc2b2289-1f29-415f-9f24-629ab5e43789",
+          "color": "#f22cba",
+          "metadata": {},
+          "labelId": "c573d90d-208f-45ac-a823-ea464170dc9e",
+          "fileId": "a5be294d-3498-48aa-9f49-45bc6085f6e6",
+          "createdAt": "2021-08-01T21:56:40.170Z",
+          "sources": [
+            {
+              "id": "d4d10423-85fe-436f-be7e-9539891e5dd4",
+              "type": "PaperBox",
+              "annotationId": "9e8a962b-89be-4e4d-897e-f7431d2b92d0",
+              "x": 197.429906542056,
+              "y": 2272.9629088785,
+              "width": 2780.3738317757,
+              "height": 500
+            }
+          ]
+        }
+      ]
+    },
+    "39bcf04a-0aee-49c3-b3cc-6420cfc53bba": {
+      "name": "1_5Edwardo.pdf.jpg",
+      "path": "1_5Edwardo.pdf.jpg",
+      "missing": false,
+      "mimetype": "image/jpeg",
+      "encoding": "7bit",
+      "kilobytes": 999,
+      "type": "DatasetFile",
+      "createdAt": "2021-08-01T21:51:35.852Z",
+      "updatedAt": "2021-08-01T21:57:15.671Z",
+      "metadata": {},
+      "md5Hash": "9475fd445ee7395196159f8aa6c25054",
+      "properties": {
+        "type": "jpg",
+        "width": 4250,
+        "height": 5500
+      },
+      "url": null,
+      "linkId": "5748fc73-d210-4359-b4e6-7ebaaec89ca4",
+      "datasetId": "1339ce16-9eb6-4afa-b3fd-11f827d874d7",
+      "status": "COMPLETED",
+      "annotations": [
+        {
+          "id": "2e548e36-77bb-4d92-aaeb-06408ee44c44",
+          "customId": null,
+          "name": "",
+          "creatorId": "bc2b2289-1f29-415f-9f24-629ab5e43789",
+          "color": "#e87c5e",
+          "metadata": {},
+          "labelId": "c573d90d-208f-45ac-a823-ea464170dc9e",
+          "fileId": "39bcf04a-0aee-49c3-b3cc-6420cfc53bba",
+          "createdAt": "2021-08-01T21:54:25.746Z",
+          "sources": [
+            {
+              "id": "ba085be7-1ebd-4746-b40f-57aa9cecc00d",
+              "type": "PaperBox",
+              "annotationId": "2e548e36-77bb-4d92-aaeb-06408ee44c44",
+              "x": 197.429906542056,
+              "y": 235.579731308411,
+              "width": 3850.46728971963,
+              "height": 1196.26168224299
+            }
+          ]
+        },
+        {
+          "id": "569e5995-3df3-4f14-9a74-875a99fea7e0",
+          "customId": null,
+          "name": "",
+          "creatorId": "bc2b2289-1f29-415f-9f24-629ab5e43789",
+          "color": "#dc3265",
+          "metadata": {},
+          "labelId": "c573d90d-208f-45ac-a823-ea464170dc9e",
+          "fileId": "39bcf04a-0aee-49c3-b3cc-6420cfc53bba",
+          "createdAt": "2021-08-01T21:56:00.795Z",
+          "sources": [
+            {
+              "id": "dd94d1c6-2d01-4b37-b2b8-6a0511795661",
+              "type": "PaperBox",
+              "annotationId": "569e5995-3df3-4f14-9a74-875a99fea7e0",
+              "x": 206.77570093458,
+              "y": 2441.18720794393,
+              "width": 3023.36448598131,
+              "height": 1116.82242990654
+            }
+          ]
+        },
+        {
+          "id": "2523c2ba-179a-4643-ab14-3d1828530691",
+          "customId": null,
+          "name": "",
+          "creatorId": "bc2b2289-1f29-415f-9f24-629ab5e43789",
+          "color": "#80d0af",
+          "metadata": {},
+          "labelId": "c573d90d-208f-45ac-a823-ea464170dc9e",
+          "fileId": "39bcf04a-0aee-49c3-b3cc-6420cfc53bba",
+          "createdAt": "2021-08-01T21:56:20.342Z",
+          "sources": [
+            {
+              "id": "b8d30e32-e644-4be4-924d-926a18c94f50",
+              "type": "PaperBox",
+              "annotationId": "2523c2ba-179a-4643-ab14-3d1828530691",
+              "x": 206.77570093458,
+              "y": 3558.00963785047,
+              "width": 920.560747663551,
+              "height": 397.196261682243
+            }
+          ]
+        },
+        {
+          "id": "66d40c58-96cd-42b5-b896-0a7ddf1dc56e",
+          "customId": null,
+          "name": "",
+          "creatorId": "bc2b2289-1f29-415f-9f24-629ab5e43789",
+          "color": "#b625aa",
+          "metadata": {},
+          "labelId": "c573d90d-208f-45ac-a823-ea464170dc9e",
+          "fileId": "39bcf04a-0aee-49c3-b3cc-6420cfc53bba",
+          "createdAt": "2021-08-01T21:56:17.279Z",
+          "sources": [
+            {
+              "id": "1aac0ef1-b4ef-4a3d-abe4-ea6c6dfe7545",
+              "type": "PaperBox",
+              "annotationId": "66d40c58-96cd-42b5-b896-0a7ddf1dc56e",
+              "x": 197.429906542056,
+              "y": 1431.8414135514,
+              "width": 2850.46728971963,
+              "height": 1009.34579439252
+            }
+          ]
+        }
+      ]
+    },
+    "837d60ac-3b63-4d88-a367-332806605d90": {
+      "name": "1_6Faye.pdf.jpg",
+      "path": "1_6Faye.pdf.jpg",
+      "missing": false,
+      "mimetype": "image/jpeg",
+      "encoding": "7bit",
+      "kilobytes": 554,
+      "type": "DatasetFile",
+      "createdAt": "2021-08-01T21:51:31.367Z",
+      "updatedAt": "2021-08-01T21:57:09.733Z",
+      "metadata": {},
+      "md5Hash": "95fd6089c9b86565360d36c975ec9d3f",
+      "properties": {
+        "type": "jpg",
+        "width": 4135,
+        "height": 5847
+      },
+      "url": null,
+      "linkId": "5748fc73-d210-4359-b4e6-7ebaaec89ca4",
+      "datasetId": "1339ce16-9eb6-4afa-b3fd-11f827d874d7",
+      "status": "COMPLETED",
+      "annotations": [
+        {
+          "id": "a9c830ef-9387-4300-be47-cf6056dff62b",
+          "customId": null,
+          "name": "",
+          "creatorId": "bc2b2289-1f29-415f-9f24-629ab5e43789",
+          "color": "#37a090",
+          "metadata": {},
+          "labelId": "c573d90d-208f-45ac-a823-ea464170dc9e",
+          "fileId": "837d60ac-3b63-4d88-a367-332806605d90",
+          "createdAt": "2021-08-01T21:56:53.139Z",
+          "sources": [
+            {
+              "id": "4f38d421-2b2a-43ca-890f-86f0d1660713",
+              "type": "PaperBox",
+              "annotationId": "a9c830ef-9387-4300-be47-cf6056dff62b",
+              "x": 321.348343245539,
+              "y": 36.8309459961764,
+              "width": 3452.56159728122,
+              "height": 541.480883602379
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
